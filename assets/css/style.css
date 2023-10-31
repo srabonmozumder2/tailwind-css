@@ -85,7 +85,7 @@
   transition: all 0.5s ease;
   top: 0;
   position: fixed;
-  background-color: #32395A;
+  background-color: #1B1F2D;
   margin-top: -10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   z-index: 99999;
@@ -98,12 +98,12 @@
 .Top-trending-topics-slider .owl-nav button.owl-prev{
     height: 40px;
     width: 40px;
-    background-color: rgb(50, 55, 95);
+    background-color: #252937;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 60px;
+    bottom: 110px;
     left: -25px;
     font-size: 35px;
     border-radius: 50%;
@@ -112,13 +112,13 @@
 .Top-trending-topics-slider .owl-nav button.owl-next{
     height: 40px;
     width: 40px;
-    background-color: rgb(50, 55, 95);
+    background-color: #252937;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     right: -25px;
-    bottom: 60px;
+    bottom: 110px;
     font-size: 35px;
     border-radius: 50%;
 }
@@ -126,6 +126,20 @@
   margin-top: -8px;
 }
 
-.Top-trending-topics-slider .owl-carousel .owl-stage-outer{
+/* .Top-trending-topics-slider .owl-carousel {
   border-radius: 20px;
+} */
+
+.Top-trending-topics-slider .owl-theme .owl-nav [class*=owl-]:hover {
+  border: 1px solid #c5c5c857;
+  background-color: rgb(50, 55, 95);
+}
+
+.Top-trending-topics-slider .owl-carousel .owl-item img{
+  border: 2px solid rgba(255, 255, 255, 0.918);
+  border-top: transparent;
+}
+
+.Top-trending-topics-slider .owl-carousel .owl-stage-outer{
+  border-radius: 25px;
 }
