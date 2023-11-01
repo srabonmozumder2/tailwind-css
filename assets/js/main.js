@@ -27,3 +27,14 @@ $('.owl-carousel').owlCarousel({
 })
 
 
+$(".background-change-icon").on("click", () => {
+    if ($("body").hasClass("light")) {
+        $("body").removeClass("light");
+        $('.background-change-icon.light-btn').hide();
+        $('.background-change-icon.dark-btn').show();
+    } else {
+        $("body").addClass("light");
+        $('.background-change-icon.dark-btn').hide();
+        $('.background-change-icon.light-btn').show();
+    };
+ });

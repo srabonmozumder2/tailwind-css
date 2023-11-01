@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  max-width: 1280px !important;
+  margin: auto;
+}
+:root {
+  --bg: #222;
+  --text: #fff;
+  --light: #1B1F2D;
+  --border: #fff;
+}
+
+body.light {
+  background: var(--text);
+}
+
+body.light .site-navigation{
+  background: var(--text);
+}
+
+body.light .nav-item-list{
+    color:  var(--light);
+}
+
+body.light .navbar-magamenu-area{
+  background: var(--text);
+}
+
+body.light .hero-card-area{
+  background: var(--text);
+  border: var(--border);
+}
+body.light .hero-card-headding{
+  color:  var(--light);
+}
+
+body.light .hero-card-text{
+  color:  var(--light);
+  font-weight: 500;
+  
+}
+body.light .Top-trending-topics-slider-headding{
+  color:  var(--light);
+
+}
+
+body.light .trending-topics{
+  color:  var(--light);
+}
+
+body.light .music-podcast-live{
+  color:  var(--light);
+}
+
+
+
+.background-change-icon.light-btn{
+  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* #Mega Menu Styles*/
   .mega-menu {
     display: none;
@@ -58,14 +125,14 @@
   }
 
 .navbar-magamenu-area{
-    left: 80% !important;
+    left: 68% !important;
     z-index: 99999999;
 }
 
 .Overlay{
     width: 100%;
     height: 700px;
-    background-color: rgba(49, 49, 49, 0.37);
+    background-color: rgba(0, 0, 0, 0.523);
     position: absolute;
     top: 0;
     left: 0;
@@ -122,17 +189,10 @@
     font-size: 35px;
     border-radius: 50%;
 }
-.Top-trending-topics-slider .owl-nav button span{
-  margin-top: -8px;
-}
-
-/* .Top-trending-topics-slider .owl-carousel {
-  border-radius: 20px;
-} */
 
 .Top-trending-topics-slider .owl-theme .owl-nav [class*=owl-]:hover {
   border: 1px solid #c5c5c857;
-  background-color: rgb(50, 55, 95);
+  background-color: #252937;
 }
 
 .Top-trending-topics-slider .owl-carousel .owl-item img{
@@ -143,3 +203,17 @@
 .Top-trending-topics-slider .owl-carousel .owl-stage-outer{
   border-radius: 25px;
 }
+
+.overlay-inner{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.285);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1;
+    border-radius: 35px;
+}
+
+
+
