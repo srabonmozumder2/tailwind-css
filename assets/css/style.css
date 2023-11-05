@@ -11,7 +11,11 @@ body{
   --text: #fff;
   --light: #1B1F2D;
   --border: #fff;
+  --card-bg: rgba(57, 52, 55, 0.06);
+  --peragraph: rgba(56, 56, 56, 0.747);
+  --MusicPlayer:#7583fe;
 }
+
 
 body.light {
   background: var(--text);
@@ -55,7 +59,38 @@ body.light .music-podcast-live{
   color:  var(--light);
 }
 
+body.light .Card-Podcast{
+  background-color:  var(--text);
+}
 
+body.light  .card-podcast-headding{
+  color: var(--light);
+}
+body.light .Card-Podcast{
+  background-color: var(--card-bg);
+}
+body.light .CardPodcast-description{
+  background-color: var(--text);
+}
+
+body.light .CardPodcast-description-headding{
+  color: var(--light);
+}
+body.light .Card-description-peragraph{
+  color: var(--peragraph);
+}
+
+.Card-Podcast.relative{
+  border-radius: 35px;
+}
+
+body.light .MusicPlayer-bg{
+  background-color: var(--text);
+}
+
+body.light .MusicPlayer-svg {
+  fill: var(--MusicPlayer);
+}
 
 .background-change-icon.light-btn{
   display: none;
